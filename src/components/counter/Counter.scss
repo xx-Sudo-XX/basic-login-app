@@ -1,0 +1,66 @@
+@import "src/globals/colors";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+$css_prefix: ".counter__";
+
+#{$css_prefix}main {
+  background-color: $color-purple-400;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  margin-left: 325px;
+  margin-top: 75px;
+  border-radius: 0.2rem;
+  box-shadow: 5px 5px 10px;
+  color: $color-darkpurple-400;
+  font-family: "Ubuntu", sans-serif;
+}
+#{$css_prefix}heading {
+  margin-left: 70px;
+}
+
+#{$css_prefix}inc {
+  margin-left: 100px;
+  margin-bottom: 10px;
+  font-size: smaller;
+  border-radius: 0.2rem;
+  border-color: $color-purple-400;
+  background-color: $color-purple-400;
+  color: $color-darkpurple-400;
+  box-shadow: 3px 3px 5px $color-darkpurple-400;
+}
+#{$css_prefix}inc:hover {
+  background-color: $color-green-400;
+}
+#{$css_prefix}dec:hover {
+  background-color: $color-darkred-400;
+}
+
+#{$css_prefix}dec {
+  margin-left: 100px;
+  font-size: smaller;
+  border-radius: 0.2rem;
+  border-color: $color-purple-400;
+  background-color: $color-purple-400;
+  color: $color-darkpurple-400;
+  box-shadow: 3px 3px 5px $color-darkpurple-400;
+}
+
+#{$css_prefix}count {
+  margin-bottom: 10px;
+  margin-left: 130px;
+  color: $color-darkpurple-400;
+  box-shadow: 3px 3px 5px $color-darkpurple-400;
+  border-color: $color-purple-400;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 0.2rem;
+}
+
+#{$css_prefix}link3 {
+  margin-left: 195px;
+  margin-top: 55px;
+  text-decoration: none;
+}

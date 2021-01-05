@@ -1,0 +1,59 @@
+@import "src/globals/colors";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap");
+
+$css_prefix: ".auth__";
+
+#{$css_prefix}main {
+  font-family: "Ubuntu", sans-serif;
+  width: 340px;
+  height: 200px;
+  margin: 30px auto 0;
+  margin-left: 300px;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  left: 400px;
+  background: $color-grey-400;
+}
+
+#{$css_prefix}input1 {
+  padding-bottom: 20px;
+  margin-left: 28px;
+  margin-top: 20px;
+  font-size: smaller;
+}
+
+#{$css_prefix}input2 {
+  margin-left: 28px;
+  font-size: smaller;
+}
+
+#{$css_prefix}heading {
+  font-family: "Inconsolata", monospace;
+  margin-top: 10px;
+  background-color: $color-darkgrey-400;
+  text-align: center;
+  font-weight: lighter;
+}
+
+#{$css_prefix}headingdiv {
+  background-color: $color-darkgrey-400;
+  height: 40px;
+  width: 340px;
+}
+
+#{$css_prefix}login {
+  margin-left: 130px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  background-color: $color-green-400;
+  border-color: $color-darkgrey-400;
+  border-radius: 0.2rem;
+  font-size: smaller;
+  box-shadow: 3px 3px 3px $color-darkgrey-400;
+}
+
+#{$css_prefix}error {
+  color: $color-red-400;
+}

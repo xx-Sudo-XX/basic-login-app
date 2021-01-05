@@ -1,0 +1,39 @@
+@import "src/globals/colors";
+@import url("https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+$css_prefix: ".todolist__";
+
+#{$css_prefix}main {
+  display: flex;
+  align-items: flex-start;
+  height: 400px;
+  width: 400px;
+  background-color: $color-lightred-300;
+  margin-left: 300px;
+  margin-top: 30px;
+  border-radius: 00.2rem;
+  box-shadow: 5px 5px 10px;
+}
+
+#{$css_prefix}headingdiv {
+  background-color: $color-darkred-300;
+  height: 40px;
+  border-radius: 0.2rem;
+}
+
+#{$css_prefix}heading {
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 150px;
+  margin-top: 5px;
+  margin-right: 152px;
+}
+
+#{$css_prefix}link4 {
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  color: $color-darkred-300;
+  margin-top: 380px;
+  margin-left: -55px;
+  font-size: 12px;
+}

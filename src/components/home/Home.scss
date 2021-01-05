@@ -1,0 +1,45 @@
+@import "src/globals/colors";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Xanh+Mono&display=swap");
+
+$css_prefix: ".home__";
+
+#{$css_prefix}main {
+  display: flex;
+  align-items: flex-start;
+  background-color: $color-darkgrey-400;
+  height: 40px;
+  width: 100%;
+}
+
+#{$css_prefix}heading {
+  margin-left: 350px;
+  margin-top: 5px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#{$css_prefix}logout {
+  margin-left: 3px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  background-color: $color-red-400;
+  border-color: $color-darkgrey-400;
+  border-radius: 0.2rem;
+  font-size: smaller;
+  box-shadow: 3px 3px 3px $color-darkgrey-400;
+}
+
+#{$css_prefix}link1 {
+  margin-top: 6px;
+  margin-left: 330px;
+  text-decoration: none;
+  font-family: "Xanh Mono", monospace;
+  color: $color-darkred-400;
+}
+#{$css_prefix}link2 {
+  margin-top: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-family: "Xanh Mono", monospace;
+  color: $color-darkred-400;
+}
